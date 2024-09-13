@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   a{
+    text-decoration: none;
+   }
+   .container{
+    max-width: 878px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+   }
+   li{
+      list-style: none;
+   }
+   :root {
+      --primary: #ff6464;
+      --secondry: #00a8cc;
+      --dark: #e80707;
+      --light: #8695a4;
+  }
+  :root {
+     --font-family: "Heebo", sans-serif;
+     --second-family: "Circular Std", sans-serif;
+   }
+   body{
+      background: black;
+   }
+   

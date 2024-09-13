@@ -1,0 +1,56 @@
+.h1_wrapper{
+    width: 90%;
+    display: flex;
+    gap: 106px;
+    margin-top: 140px;
+}
+.h1_content{
+    width: 100%;
+}
+.photo{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+.h1_content h1{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 44px;
+line-height: 136%;
+color: var(--dark);
+margin-bottom: 20px;
+}
+.h1_content p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color:  white;
+margin-bottom: 38px;
+}
+.h1_content button{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+color: #fff;
+border-radius: 2px;
+width: 208px;
+height: 47px;
+background: var(--primary);
+border: none;
+margin-bottom: 71px;
+}
+@media(max-width:870px){
+    .h1_wrapper{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
+    }
+    .h1_content{
+        margin: 0 auto;
+    }
+    .h1_content button{
+        margin: 0 auto;
+        margin-bottom: 71px;
+        display: block;
+    }
+}

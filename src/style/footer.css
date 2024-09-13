@@ -1,0 +1,20 @@
+.logo_w{
+    display: flex;
+    gap: 35px;
+     
+    width: 232px;
+    margin: 134px auto 26px;
+
+}
+.f_span{
+    text-align: center;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+text-align: center;
+color: var(--dark);
+margin-bottom: 54px;
+}
+.footer{
+    width: 90%;
+}
